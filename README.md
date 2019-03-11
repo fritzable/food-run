@@ -7,7 +7,7 @@ helps to have a plan.
 
 This app, built with a Rails API and a JavaScript front end, is a simple recipe
 keeper. With a later update, it will have the ability to produce a grocery list
-from the recipes you choose for the week. 
+from the recipes you choose for the week.
 
 # Getting Started
 
@@ -42,10 +42,10 @@ Client
 1.  [R] Review [rails-api-one-to-many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-one-to-many) or [rails-api-many-to-many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
 1.  [R] Scaffold your resource
 1.  [R] Test your resource's end points with curl scripts
-1.  [ ] Update resource controller to inherit from Protected or OpenRead controller
-1.  [ ] Test your resource's end points with curl scripts
-1.  [ ] Add the relationship to a User
-1.  [ ] Add User ownership to resource controller
+1.  [R] Update resource controller to inherit from Protected or OpenRead controller
+1.  [R] Test your resource's end points with curl scripts
+1.  [R] Add the relationship to a User
+1.  [R] Add User ownership to resource controller
 
 ### Client
 1.  [ ] Review [api-token-auth](https://git.generalassemb.ly/ga-wdi-boston/api-token-auth)
