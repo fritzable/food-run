@@ -28,9 +28,9 @@ Client
 1.  [ ] [Deploy to Github Pages](https://git.generalassemb.ly/ga-wdi-boston/gh-pages-deployment-guide)
 
 ### API
-1.  [ ] Review [rails-api-one-to-many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-one-to-many) or [rails-api-many-to-many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
-1.  [ ] Scaffold your resource
-1.  [ ] Test your resource's end points with curl scripts
+1.  [R] Review [rails-api-one-to-many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-one-to-many) or [rails-api-many-to-many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
+1.  [R] Scaffold your resource
+1.  [R] Test your resource's end points with curl scripts
 1.  [ ] Update resource controller to inherit from Protected or OpenRead controller
 1.  [ ] Test your resource's end points with curl scripts
 1.  [ ] Add the relationship to a User
