@@ -1,3 +1,14 @@
+# FoodRun
+
+Having a plan when running to the store.
+
+Making food at home saves money, but in order to make sure you use it all up, it
+helps to have a plan.
+
+This app, built with a Rails API and a JavaScript front end, is a simple recipe
+keeper. With a later update, it will have the ability to produce a grocery list
+from the recipes you choose for the week. 
+
 # Getting Started
 
 Most importantly, remember to **go slowly and be methodical**. That means you
