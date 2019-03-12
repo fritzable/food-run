@@ -9,6 +9,42 @@ This app, built with a Rails API and a JavaScript front end, is a simple recipe
 keeper. With a later update, it will have the ability to produce a grocery list
 from the recipes you choose for the week.
 
+# Planning
+
+I initially wanted this app to be complete with a list generator along with check-marking capability on the list. As part of planning the basic requirements of this type of app, I determined the first feature to develop a simple one-to-many data relationship would be a recipe keeper. So I planned to build a working version of this simpler feature, and add to that.
+
+This is my visualisation of en Entity Relationship for the app:
+
+![ERD](./ERDversionOne.png)
+
+# Link to the front end repo
+
+https://github.com/fritzable/food-run-client
+
+# Link to deployed sites:
+
+Client: https://fritzable.github.io/food-run-client/
+API: https://logansfoodrun.herokuapp.com/
+
+# What it does and how it works
+
+Users can sign in and add their own recipes.
+Using Rails' authentication methods, all Users are subject to password and username validation before accessing the site's functions.
+Signed in Users can retrieve the list of their own recipes, or view a single recipe (currently by ID reference only, updates should include search functionality). Users can update their recipes individually, and they can change their user password.
+Recipes and any changes are saved as resources to a Postgresql database (Users are, as well).
+JavaScript: UI and API interaction logic
+HTML: structure
+CSS: styling
+Bootstrap: styling
+Handlebars: HTML DOM updating
+
+# Later version enhancements
+
+This app led to several ideas about other cooking-related pain points, and a few of them could be incorporated into later versions of FoodRun.
+
+Optimize step-by-step instruction reading for small devices:
+I would say recipe instructions have yet to be optimized on any digital platform, whether laptop or mobile. There is an opportunity to make cooking apps more useful. Steps should be large and readable, and easy to step through. I see this as being an extra large "current" step, with smaller "prior" and "next" steps rotating positions with "current."
+
 # Getting Started
 
 Most importantly, remember to **go slowly and be methodical**. That means you
@@ -45,7 +81,7 @@ Client
 1.  [R] Update resource controller to inherit from Protected or OpenRead controller
 1.  [R] Test your resource's end points with curl scripts
 1.  [R] Add the relationship to a User
-1.  [ ] Add User ownership to resource controller (current_user)
+1.  [R] Add User ownership to resource controller (current_user)
 
 ### Client
 1.  [x] Review [api-token-auth](https://git.generalassemb.ly/ga-wdi-boston/api-token-auth)
