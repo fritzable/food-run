@@ -6,14 +6,16 @@ class RecipesController < ProtectedController
 
   # GET /recipes
   def index
-    @recipes = Recipe.all
+    @recipes = current_user.recipes
 
     render json: @recipes
   end
 
   # GET /recipes/1
   def show
-    render json: @recipe
+    @recipes = current_user.recipes.find(params[:id])
+
+    render json: @recipes
   end
 
   # POST /recipes

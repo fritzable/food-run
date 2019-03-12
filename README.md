@@ -45,7 +45,7 @@ Client
 1.  [R] Update resource controller to inherit from Protected or OpenRead controller
 1.  [R] Test your resource's end points with curl scripts
 1.  [R] Add the relationship to a User
-1.  [ ] Add User ownership to resource controller (current_user)
+1.  [R] Add User ownership to resource controller (current_user)
 
 ### Client
 1.  [x] Review [api-token-auth](https://git.generalassemb.ly/ga-wdi-boston/api-token-auth)
