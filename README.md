@@ -36,7 +36,7 @@ Client
 
 1.  [x] [Download Browser Template](https://git.generalassemb.ly/ga-wdi-boston/browser-template)
 1.  [x] Create a Github Repository
-1.  [ ] [Deploy to Github Pages](https://git.generalassemb.ly/ga-wdi-boston/gh-pages-deployment-guide)
+1.  [x] [Deploy to Github Pages](https://git.generalassemb.ly/ga-wdi-boston/gh-pages-deployment-guide)
 
 ### API
 1.  [R] Review [rails-api-one-to-many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-one-to-many) or [rails-api-many-to-many](https://git.generalassemb.ly/ga-wdi-boston/rails-api-many-to-many)
@@ -45,20 +45,20 @@ Client
 1.  [R] Update resource controller to inherit from Protected or OpenRead controller
 1.  [R] Test your resource's end points with curl scripts
 1.  [R] Add the relationship to a User
-1.  [R] Add User ownership to resource controller
+1.  [ ] Add User ownership to resource controller (current_user)
 
 ### Client
-1.  [ ] Review [api-token-auth](https://git.generalassemb.ly/ga-wdi-boston/api-token-auth)
-1.  [ ] Sign Up (curl then web app)
-1.  [ ] Sign In (curl then web app)
-1.  [ ] Change Password (curl then web app)
-1.  [ ] Sign Out (curl then web page)
-1.  [ ] All API calls have success or failure messages
-1.  [ ] Review [query-ajax-post](https://github.com/ga-wdi-boston/jquery-ajax-post)
-1.  [ ] Create resource (curl then web app)
-1.  [ ] Get all of their owned resources (curl then web app)
-1.  [ ] Delete single resource (curl then web app)
-1.  [ ] Update single resource (curl then web app)
+1.  [x] Review [api-token-auth](https://git.generalassemb.ly/ga-wdi-boston/api-token-auth)
+1.  [x] Sign Up (curl then web app)
+1.  [x] Sign In (curl then web app)
+1.  [x] Change Password (curl then web app)
+1.  [x] Sign Out (curl then web page)
+1.  [ ] All API calls have success or failure messages (except sign out and change password when not signed in)
+1.  [x] Review [query-ajax-post](https://github.com/ga-wdi-boston/jquery-ajax-post)
+1.  [x] Create resource (curl then web app)
+1.  [x] Get all of their owned resources (curl then web app)
+1.  [x] Delete single resource (curl then web app)
+1.  [x] Update single resource (curl then web app)
 
 ### Final Touches
 1.  [ ] README
