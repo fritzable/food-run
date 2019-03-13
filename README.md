@@ -97,6 +97,11 @@ Client
 1.  [x] Update single resource (curl then web app)
 
 ### Final Touches
-1.  [ ] README
+1.  [x] Review Handlebars
+1.  [x] Handlebars template for displaying recipes
+1.  [ ] Model styles for navbar and footer
+1.  [ ] Add classes and styles to achieve model
+1.  [ ] Add Edit button to template
+1.  [ ] Change template buttons to icons: trash, pencil, plus
 2.  [ ] Troubleshoot/Debug
 3.  [ ] Style

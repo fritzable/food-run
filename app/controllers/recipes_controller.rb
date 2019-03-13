@@ -13,8 +13,6 @@ class RecipesController < ProtectedController
 
   # GET /recipes/1
   def show
-    @recipes = current_user.recipes.find(params[:id])
-
     render json: @recipes
   end
 
@@ -47,7 +45,7 @@ class RecipesController < ProtectedController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_recipe
-    @recipe = Recipe.find(params[:id])
+    @recipe = current_user.recipes.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
