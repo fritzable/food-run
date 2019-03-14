@@ -13,9 +13,12 @@ from the recipes you choose for the week.
 
 I initially wanted this app to be complete with a list generator along with check-marking capability on the list. As part of planning the basic requirements of this type of app, I determined the first feature to develop a simple one-to-many data relationship would be a recipe keeper. So I planned to build a working version of this simpler feature, and add to that.
 
-This is my visualisation of en Entity Relationship for the app:
+This is my visualization of an Entity Relationship for the app:
 
 ![ERD](./ERDversionOne.png)
+
+In order to add another feature, I had to decide the data relationships between the current tables and the new resource. This, at least as a first pass, depends on a choice of functionality: do I want to prioritize users being able to access ingredients from their Recipe table (as in the case of producing a user-owned list of user-created ingredients), or will it be more important to access all Ingredients and all Recipes independent of their ownership (as in a meal planner).
+I decided to go with the former approach.
 
 # Link to the front end repo
 
@@ -89,7 +92,7 @@ Client
 1.  [x] Sign In (curl then web app)
 1.  [x] Change Password (curl then web app)
 1.  [x] Sign Out (curl then web page)
-1.  [ ] All API calls have success or failure messages (except sign out and change password when not signed in)
+1.  [ ] All API calls have success or failure messages
 1.  [x] Review [query-ajax-post](https://github.com/ga-wdi-boston/jquery-ajax-post)
 1.  [x] Create resource (curl then web app)
 1.  [x] Get all of their owned resources (curl then web app)
@@ -104,4 +107,4 @@ Client
 1.  [ ] Add Edit button to template
 1.  [ ] Change template buttons to icons: trash, pencil, plus
 2.  [ ] Troubleshoot/Debug
-3.  [ ] Style
+3.  [x] Style
