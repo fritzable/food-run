@@ -1,6 +1,6 @@
 # FoodRun
 
-Having a plan when running to the store.
+*Having a plan when running to the store.*
 
 Making food at home saves money, but in order to make sure you use it all up, it
 helps to have a plan.
@@ -9,7 +9,7 @@ This app, built with a Rails API and a JavaScript front end, is a simple recipe
 keeper. With a later update, it will have the ability to produce a grocery list
 from the recipes you choose for the week.
 
-# Planning
+## Planning
 
 I initially wanted this app to be complete with a list generator along with check-marking capability on the list. As part of planning the basic requirements of this type of app, I determined the first feature to develop a simple one-to-many data relationship would be a recipe keeper. So I planned to build a working version of this simpler feature, and add to that.
 
@@ -20,16 +20,16 @@ This is my visualization of an Entity Relationship for the app:
 In order to add another feature, I had to decide the data relationships between the current tables and the new resource. This, at least as a first pass, depends on a choice of functionality: do I want to prioritize users being able to access ingredients from their Recipe table (as in the case of producing a user-owned list of user-created ingredients), or will it be more important to access all Ingredients and all Recipes independent of their ownership (as in a meal planner).
 I decided to go with the former approach.
 
-# Link to the front end repo
+## Link to the front end repo
 
 https://github.com/fritzable/food-run-client
 
-# Link to deployed sites:
+## Link to deployed sites:
 
 Client: https://fritzable.github.io/food-run-client/
 API: https://logansfoodrun.herokuapp.com/
 
-# What it does and how it works
+## What it does and how it works
 
 Users can sign in and add their own recipes.
 Using Rails' authentication methods, all Users are subject to password and username validation before accessing the site's functions.
@@ -39,14 +39,20 @@ JavaScript: UI and API interaction logic
 HTML: structure
 CSS: styling
 Bootstrap: styling
-Handlebars: HTML DOM updating
+Handlebars: HTML templating
+Styling credit: On recipe cards, used Benny Bottema's text height calculations and linear-gradient idea to create an underline on each line in an area: https://stackoverflow.com/a/48840828
 
-# Later version enhancements
+## Later version enhancements
 
 This app led to several ideas about other cooking-related pain points, and a few of them could be incorporated into later versions of FoodRun.
 
 Optimize step-by-step instruction reading for small devices:
 I would say recipe instructions have yet to be optimized on any digital platform, whether laptop or mobile. There is an opportunity to make cooking apps more useful. Steps should be large and readable, and easy to step through. I see this as being an extra large "current" step, with smaller "prior" and "next" steps rotating positions with "current."
+
+UI improvements:
+- add Update and Save buttons to recipe cards, and change all buttons to icons.
+- collapse forms into their own links inside a hamburger in the navbar.
+- improve responsive styling.
 
 # Getting Started
 
