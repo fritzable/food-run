@@ -13,12 +13,12 @@ from the recipes you choose for the week.
 
 I initially wanted this app to be complete with a list generator along with check-marking capability on the list. As part of planning the basic requirements of this type of app, I determined the first feature to develop a simple one-to-many data relationship would be a recipe keeper. So I planned to build a working version of this simpler feature, and add to that.
 
-This is my visualization of an Entity Relationship for the app:
+This is my visualization of an Entity Relationship for the app, including later versions' features:
 
 ![ERD](./ERDversionOne.png)
 
-In order to add another feature, I had to decide the data relationships between the current tables and the new resource. This, at least as a first pass, depends on a choice of functionality: do I want to prioritize users being able to access ingredients from their Recipe table (as in the case of producing a user-owned list of user-created ingredients), or will it be more important to access all Ingredients and all Recipes independent of their ownership (as in a meal planner).
-I decided to go with the former approach.
+**Later versions**: In order to add another feature, I had to decide the data relationships between the current tables and the new resource. This, at least as a first pass, depends on a choice of functionality: do I want to prioritize users being able to access ingredients from their Recipe table (as in the case of producing a user-owned list of user-created ingredients), or will it be more important to access all Ingredients and all Recipes independent of their ownership (as in a meal planner).
+I decided to go with the former approach. After trying an additional table called Plans, I realized I could acheive the desired functionality in a simpler way by eliminating the additional Plans table, and by adding a boolean column to recipes. Then users could mark a recipe as saved and a new view "shopping list" could query the ingredients within marked recipes.
 
 ## Link to the front end repo
 
