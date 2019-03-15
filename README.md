@@ -53,7 +53,8 @@ UI improvements:
 - add Update and Save buttons to recipe cards, and change all buttons to icons.
 - collapse forms into their own links inside a hamburger in the navbar.
 - improve responsive styling.
-
+- there is a column for image URL in Recipes, but the display image still needs to be coded in.
+<!--
 # Getting Started
 
 Most importantly, remember to **go slowly and be methodical**. That means you
@@ -98,7 +99,7 @@ Client
 1.  [x] Sign In (curl then web app)
 1.  [x] Change Password (curl then web app)
 1.  [x] Sign Out (curl then web page)
-1.  [ ] All API calls have success or failure messages
+1.  [x] All API calls have success or failure messages
 1.  [x] Review [query-ajax-post](https://github.com/ga-wdi-boston/jquery-ajax-post)
 1.  [x] Create resource (curl then web app)
 1.  [x] Get all of their owned resources (curl then web app)
@@ -108,9 +109,9 @@ Client
 ### Final Touches
 1.  [x] Review Handlebars
 1.  [x] Handlebars template for displaying recipes
-1.  [ ] Model styles for navbar and footer
-1.  [ ] Add classes and styles to achieve model
-1.  [ ] Add Edit button to template
-1.  [ ] Change template buttons to icons: trash, pencil, plus
-2.  [ ] Troubleshoot/Debug
-3.  [x] Style
+1.  [x] Model styles for navbar and footer
+1.  [o] Add classes and styles to achieve model
+1.  [o] Add Edit button to template
+1.  [o] Change template buttons to icons: trash, pencil, plus
+2.  [x] Troubleshoot/Debug
+3.  [x] Style -->
