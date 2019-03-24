@@ -43,7 +43,7 @@ Signed in Users can retrieve the list of their own recipes, or view a single rec
 - CSS: styling
 - Bootstrap: styling
 - Handlebars: HTML templating
-Styling credit: On recipe cards, used Benny Bottema's text height calculations and linear-gradient idea to create an underline on each line in an area: https://stackoverflow.com/a/48840828
+- Styling credit: On recipe cards, used Benny Bottema's text height calculations and linear-gradient idea to create an underline on each line in an area: https://stackoverflow.com/a/48840828
 
 ## Later version enhancements
 
